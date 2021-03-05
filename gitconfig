@@ -1,1 +1,3 @@
-/home/michael/.gitconfig
+[user]
+	email = hoefler2002@gmail.com
+	name = Michael Hoefler
