@@ -7,20 +7,21 @@ set expandtab
 set nu list
 syntax on
 
-call plug#begin()
+" call plug#begin()
 
-Plug 'joshdick/onedark.vim', {'as': 'onedark'}
-Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
-Plug 'lervag/vimtex'
+" Plug 'joshdick/onedark.vim', {'as': 'onedark'}
+" Plug 'dracula/vim', { 'as': 'dracula' }
+" Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+" Plug 'lervag/vimtex'
 " Plug 'vim-airline/vim-airline'
 
-call plug#end()
+" call plug#end()
 
 " let g:airline_powerline_fonts = 1
 " let g:airline_section_z = airline#section#create(['%3p%%'])
 
-let g:livepreview_previewer = 'evince'
-
-let g:dracula_italic = 0
-colorscheme dracula
+" let g:livepreview_previewer = 'evince'
+" 
+" let g:dracula_italic = 0
+" colorscheme dracula
+" colorscheme onedark

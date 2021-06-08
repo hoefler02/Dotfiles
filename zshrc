@@ -26,6 +26,10 @@ alias ll='ls -lah --color=auto'
 alias grep='grep --color=auto'
 alias diff='diff --color=auto'
 
+alias gdb='gdb -q'
+
+alias docker='sudo docker'
+
 export LC_ALL=en_US.UTF-8 TERM=xterm-256color PATH=$PATH:/home/michael/.gem/ruby/2.7.0/bin
 
 source /usr/share/zsh/plugins/fast-syntax-highlighting.plugin.zsh
