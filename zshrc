@@ -21,14 +21,13 @@ setopt auto_cd
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
-alias ls='ls --color=auto'
+alias ls='ls --color=auto --group-directories-first'
 alias ll='ls -lah --color=auto'
 alias grep='grep --color=auto'
 alias diff='diff --color=auto'
-
 alias gdb='gdb -q'
-
 alias docker='sudo docker'
+alias make='make -B'
 
 export LC_ALL=en_US.UTF-8 TERM=xterm-256color PATH=$PATH:/home/michael/.gem/ruby/2.7.0/bin
 
