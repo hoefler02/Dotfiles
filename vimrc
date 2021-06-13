@@ -11,6 +11,7 @@ call plug#begin()
 
 Plug 'tomasr/molokai'
 Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
 " Plug 'joshdick/onedark.vim', {'as': 'onedark'}
 " Plug 'dracula/vim', { 'as': 'dracula' }
 " Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
@@ -21,12 +22,10 @@ let g:airline_powerline_fonts = 1
 let g:airline_section_z = airline#section#create(['%3p%%'])
 
 " let g:livepreview_previewer = 'evince'
-" 
-" let g:dracula_italic = 0
-" colorscheme dracula
-" colorscheme onedark
 
 let g:rehash256 = 1
 let g:molokai_original = 1
+
+nnoremap <C-n> :NERDTreeToggle<CR>
 
 colorscheme molokai
