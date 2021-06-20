@@ -35,3 +35,6 @@ source /usr/share/zsh/plugins/fast-syntax-highlighting.plugin.zsh
 
 echo ''
 neofetch
+
+# keyboard: echo 1 > /sys/class/leds/tpacpi::kbd_backlight/brightness
+# display: brightnessctl s 10%
