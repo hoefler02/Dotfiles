@@ -1,0 +1,4 @@
+# accept unstable packages
+app-editors/vscode
+app-editors/sublime-text
+media-sound/spotify
