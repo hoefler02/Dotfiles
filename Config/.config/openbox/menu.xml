@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <menu id="1" label="Development">
+            <item label="CMake curses GUI (ccmake)"> <action name="Execute">
+                <execute>alacritty -e ccmake</execute>
+            </action> </item>
+            <item label="GDB"> <action name="Execute">
+                <execute>alacritty -e gdb</execute>
+            </action> </item>
+            <item label="IDLE (Python IDE)"> <action name="Execute">
+                <execute>idle</execute>
+            </action> </item>
+            <item label="Python"> <action name="Execute">
+                <execute>alacritty -e python</execute>
+            </action> </item>
+            <item label="Tclsh8.6"> <action name="Execute">
+                <execute>alacritty -e tclsh8.6</execute>
+            </action> </item>
+            <item label="VSCodium"> <action name="Execute">
+                <execute>vscodium</execute>
+            </action> </item>
+            <item label="VSCodium Wayland"> <action name="Execute">
+                <execute>vscodium --enable-features=UseOzonePlatform --ozone-platform=wayland</execute>
+            </action> </item>
+        </menu>
+        <menu id="2" label="Editors">
+            <item label="Emacs"> <action name="Execute">
+                <execute>alacritty -e emacs</execute>
+            </action> </item>
+            <item label="Neovim"> <action name="Execute">
+                <execute>alacritty -e nvim</execute>
+            </action> </item>
+            <item label="Vi"> <action name="Execute">
+                <execute>alacritty -e vi</execute>
+            </action> </item>
+            <item label="Vim"> <action name="Execute">
+                <execute>alacritty -e vim</execute>
+            </action> </item>
+        </menu>
+        <menu id="6" label="Graphics">
+            <item label="FontForge"> <action name="Execute">
+                <execute>fontforge</execute>
+            </action> </item>
+            <item label="LibreOffice Draw"> <action name="Execute">
+                <execute>libreoffice --draw</execute>
+            </action> </item>
+            <item label="MuPDF"> <action name="Execute">
+                <execute>mupdf</execute>
+            </action> </item>
+        </menu>
+        <menu id="7" label="Multimedia">
+            <item label="PulseAudio Volume Control"> <action name="Execute">
+                <execute>pavucontrol</execute>
+            </action> </item>
+            <item label="Spotify"> <action name="Execute">
+                <execute>spotify</execute>
+            </action> </item>
+        </menu>
+        <menu id="5" label="Network">
+            <item label="Discord"> <action name="Execute">
+                <execute>/opt/discord/Discord</execute>
+            </action> </item>
+            <item label="FireFox"> <action name="Execute">
+                <execute>firefox</execute>
+            </action> </item>
+            <item label="Spicy"> <action name="Execute">
+                <execute>spicy</execute>
+            </action> </item>
+            <item label="Thunderbird"> <action name="Execute">
+                <execute>thunderbird</execute>
+            </action> </item>
+            <item label="W3m"> <action name="Execute">
+                <execute>alacritty -e w3m</execute>
+            </action> </item>
+            <item label="WeeChat"> <action name="Execute">
+                <execute>alacritty -e weechat</execute>
+            </action> </item>
+            <item label="Wireshark"> <action name="Execute">
+                <execute>wireshark</execute>
+            </action> </item>
+        </menu>
+        <menu id="3" label="Office">
+            <item label="LibreOffice Calc"> <action name="Execute">
+                <execute>libreoffice --calc</execute>
+            </action> </item>
+            <item label="LibreOffice Impress"> <action name="Execute">
+                <execute>libreoffice --impress</execute>
+            </action> </item>
+            <item label="LibreOffice Math"> <action name="Execute">
+                <execute>libreoffice --math</execute>
+            </action> </item>
+            <item label="LibreOffice Start Center"> <action name="Execute">
+                <execute>libreoffice</execute>
+            </action> </item>
+            <item label="LibreOffice Writer"> <action name="Execute">
+                <execute>libreoffice --writer</execute>
+            </action> </item>
+        </menu>
+        <menu id="4" label="Science">
+            <item label="bc"> <action name="Execute">
+                <execute>alacritty -e bc</execute>
+            </action> </item>
+            <item label="dc"> <action name="Execute">
+                <execute>alacritty -e dc</execute>
+            </action> </item>
+        </menu>
+        <menu id="19" label="Shells">
+            <item label="Alacritty"> <action name="Execute">
+                <execute>alacritty</execute>
+            </action> </item>
+            <item label="GIT"> <action name="Execute">
+                <execute>alacritty -e git</execute>
+            </action> </item>
+            <item label="ST"> <action name="Execute">
+                <execute>st</execute>
+            </action> </item>
+            <item label="Thunar File Manager"> <action name="Execute">
+                <execute>thunar</execute>
+            </action> </item>
+        </menu>
+        <menu id="37" label="System">
+            <menu id="36" label="Settings">
+                <item label="File Manager Settings"> <action name="Execute">
+                    <execute>thunar-settings</execute>
+                </action> </item>
+                <item label="Manage Printing"> <action name="Execute">
+                    <execute>xdg-open http://localhost:631/</execute>
+                </action> </item>
+                <item label="nitrogen"> <action name="Execute">
+                    <execute>nitrogen</execute>
+                </action> </item>
+                <item label="Openbox Configuration Manager"> <action name="Execute">
+                    <execute>obconf</execute>
+                </action> </item>
+                <item label="Panel"> <action name="Execute">
+                    <execute>xfce4-panel --preferences</execute>
+                </action> </item>
+            </menu>
+            <item label="chronyc"> <action name="Execute">
+                <execute>alacritty -e chronyc</execute>
+            </action> </item>
+            <item label="Htop"> <action name="Execute">
+                <execute>alacritty -e htop</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>alacritty -e pstree</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>alacritty -e pstree.x11</execute>
+            </action> </item>
+            <item label="Top"> <action name="Execute">
+                <execute>alacritty -e top</execute>
+            </action> </item>
+            <item label="Virtual Machine Manager"> <action name="Execute">
+                <execute>virt-manager</execute>
+            </action> </item>
+        </menu>
+        <menu id="38" label="Utilities">
+            <item label="About Xfce"> <action name="Execute">
+                <execute>xfce4-about</execute>
+            </action> </item>
+            <item label="Info"> <action name="Execute">
+                <execute>alacritty -e info</execute>
+            </action> </item>
+            <item label="Xsetroot"> <action name="Execute">
+                <execute>xsetroot</execute>
+            </action> </item>
+        </menu>
+        <separator/>
+        <menu id="40" label="OpenBox">
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        </menu>
+    </menu>
+</openbox_menu>
