@@ -1,11 +1,13 @@
 # Dotfiles
 A repository to store my current dotfile configuration.
 
-# Pictures
-Stores my wallpaper collection.
+# Stow
+I use [GNU Stow](https://www.gnu.org/software/stow/) to manage these configurations.
 
-# Config
-The dotfiles
-
+```
+[michael@pc:~/Dotfiles]$
+stow Config/
+```
 # Gentoo
-Kernel config (desktop) and suckless builds
+The Gentoo folder has suckless builds and my kernel `.config` which I use on my computers.
+
